@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>sales_system</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Imagenes requerimientos o funcionalidades\" />
+  </ItemGroup>
+
+</Project>

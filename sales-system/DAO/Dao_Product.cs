@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using sales_system.DTO;
+
+namespace sales_system.DAO
+{
+    public class Dao_Product
+    {
+        public List<Dto_Product> CreateProduct(List<string> Name, List<double> Price, List<string> Category)
+        {
+            List<Dto_Product> Product = new List<Dto_Product>();
+
+            for (int i = 0; i < Name.Count; i++)
+            {
+                Product.Add(new Dto_Product()
+                {
+                    Name = Name[i],
+                    Price = Price[i],
+                    Category = Category[i]
+                });
+            }
+
+            return Product;
+        }
+    }
+}
